@@ -1,3 +1,4 @@
+/* Universal */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,7 +17,9 @@ a {
 p {
     font-size: 16px;
 }
+/* Universal END */
 
+/* Navigation */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +52,9 @@ p {
     display: inline-block;
     margin-left: 25px;
 }
+/* Navigation END */
 
+/* Hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +63,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero END */
 
+
+/* Main Site Content */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -128,7 +136,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Main Site Content END */
 
+/* Benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -187,7 +197,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefit END */
 
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +210,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer END */
